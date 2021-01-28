@@ -18,7 +18,7 @@ public class Main
 		String[] GG4 ={"M',","F',"};
 		String[] GG5 ={"2","5","8","9"};
 		String[] GG6 ={"Tycoon Place House No. 9,","Gold Reserved Court,","Tai Po Mei Wan Building,","Eightland Gardens Block 3,"};
-		String[] GG7 ={"KLN,","KT,","NT"};
+		String[] GG7 ={"KLN,","KT,","NT,"};
       	Random r=new Random();        
       	int randomNumber=r.nextInt(GG1.length);
 		int randomNumber2=r.nextInt(GG2.length);
@@ -76,7 +76,7 @@ public class Main
 		System.out.println(GG2[randomNumber2]+"@gmail.com',");	
 		
 		System.out.print("'address': '");
-		System.out.print("RM"+r.nextInt (40)+"0"+r.nextInt (9)+", "+GG6[randomNumber6]+", "+GG7[randomNumber7]+"Hong kong");
+		System.out.print("RM"+r.nextInt (40)+"0"+r.nextInt (9)+", "+GG6[randomNumber6]+GG7[randomNumber7]+"Hong kong");
 		
 		
 
