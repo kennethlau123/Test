@@ -67,9 +67,10 @@ public class Fake_ID
 		System.out.print("'phoneNumber': '");
 		System.out.print(GG5[randomNumber5]);	
 		int num2, num3;
-        ran = r.nextInt (9)+10;
-        num2 = r.nextInt (9999899)+100;
-        System.out.println(ran+num2+"',");
+		ran = r.nextInt (9)+10;
+		num2 = r.nextInt (9999999)+1000;
+		num3 = r.nextInt (98)+1;
+		System.out.println(ran+num2+num3+"',");
         
         System.out.print("'email': '");
         System.out.print(GG1[randomNumber]);
